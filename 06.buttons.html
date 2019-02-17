@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <button class="btn btn-primary" type="button">primary</button>
+    <button class="btn btn-secondary" type="button">secondary</button>
+    <button class="btn btn-success" type="button">success</button>
+    <button class="btn btn-danger" type="button">danger</button>
+    <button class="btn btn-warning" type="button">warning</button>
+    <button class="btn btn-info" type="button">info</button>
+    <button class="btn btn-light" type="button">light</button>
+    <button class="btn btn-dark" type="button">dark</button>
+    <button class="btn btn-link" type="button">Link</button>
+
+    <!-- Button tags
+The .btn classes are designed to be used with the <button> element. However, you can also use these classes on <a> or <input> elements (though some browsers may apply a slightly different rendering).
+When using button classes on <a> elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a role="button" to appropriately convey their purpose to assistive technologies such as screen readers.
+ -->
+    <hr>
+
+
+    <button class="btn btn-outline-primary" type="button">primary</button>
+    <button class="btn btn-outline-secondary" type="button">secondary</button>
+    <button class="btn btn-outline-success" type="button">success</button>
+    <button class="btn btn-outline-danger" type="button">danger</button>
+    <button class="btn btn-outline-warning" type="button">warning</button>
+    <button class="btn btn-outline-info" type="button">info</button>
+    <button class="btn btn-outline-light" type="button">light</button>
+    <button class="btn btn-outline-dark" type="button">Play it!</button>
+
+    <hr>
+
+    <a href="#" class="btn btn-primary" role="button">Link</a>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <input type="button" class="btn btn-primary" value="Input">
+    <input type="button" class="btn-btn-primary" value="Submit">
+    <input type="button" class="btn btn-primary" value="Reset">
+
+    <hr>
+
+    <button class="btn btn-primary btn-lg" type="button">Large button</button>
+    <button class="btn btn-primary btn-sm" type="button"><svg id="i-play" viewBox="0 0 32 30" width="32" height="32"
+            fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M10 2 L10 30 24 16 Z" />
+        </svg></button>
+    <hr>
+    <button class="btn btn-primary btn-lg btn-block" type="button">Block large button</button>
+    <button class="btn btn-primary btn-sm btn-block" type="button">block small button</button>
+
+    <hr>
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label for="" class="btn.btn-secondary.active">
+            <input type="radio" id="option1" name="options" autocomplete="off" checked="checked">Active
+        </label>
+            <label for="" class="btn.btn-secondary">
+                <input type="radio" name="options" autocomplete="off" id="option2">Radio
+                <input type="radio" name="options" autocomplete="off" id="option3">Radio
+            </label>
+        </div>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label for="" class="btn btn-secondary"><input type="radio" id="option1" name="options" autocomplete="off" checked="checked">Rew</label>
+    <label for="" class="btn btn-secondary"><input type="radio" name="options" autocomplete="off" id="option2">Play</label>
+    <label for="" class="btn btn-secondary"><input type="radio" name="options" autocomplete="off" id="option3">FF</label>
+</div>
+
+
+<!-- div.btn-group.btn-group-toggle[data-toggle=buttons]>(label[class=btn.btn-secondary.active]>input[id=option1][type=radio][name=options][autocomplete=off][checked]{Active})+label[class=btn.btn-secondary]>input[type=radio][name=options][autocomplete=off][id=option$@2]{Radio}*2 -->
+<hr>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+        </label>
+      </div>
+
+
+
+</body>
+
+</html>
