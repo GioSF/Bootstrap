@@ -17,12 +17,107 @@
 
 <body>
 
-    <ul class="nav nav-pills nav-justified">
-        <li class="nav-item"><a href="#" class="nav-link active">Início</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Compras</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Perfil</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Sair</a></li>
+    <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pedidos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Notificações <span class="badge badge-light badge-primary">3</span></a></li>
     </ul>
+
+    <form action="/action_page.php" method="get">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Escolha os produtos</p>
+            </div>
+        </div>
+
+        <div class="input-group mb-3">
+            <input class="form-control" list="browsers" name="browser" placeholder="Nome do produto" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <input class="form-control" type="number" id="replyNumber" min="0" step="1" data-bind="value:replyNumber"
+                placeholder="Quantidade" />
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Incluir</button>
+            </div>
+        </div>
+
+        <datalist id="browsers">
+            <option value="Abacate">
+            <option value="Abacaxi">
+            <option value="Ameixa">
+            <option value="Amora">
+            <option value="Araticum">
+            <option value="Atemoia">
+            <option value="Avocado">
+            <option value="Banana prata">
+            <option value="Caju">
+            <option value="Cana descascada">
+            <option value="Caqui">
+            <option value="Caqui Fuyu">
+            <option value="Carambola">
+            <option value="Cereja">
+            <option value="Coco verde">
+            <option value="Figo">
+            <option value="Figo da Índia">
+            <option value="Framboesa">
+            <option value="Goiaba">
+            <option value="Graviola">
+            <option value="Jabuticaba">
+            <option value="Jambo">
+            <option value="Jambo rosa">
+            <option value="Jambolão">
+            <option value="Kino (Kiwano)">
+            <option value="Kiwi">
+            <option value="Laranja Bahia">
+            <option value="Laranja para suco">
+            <option value="Laranja seleta">
+            <option value="Laranja serra d’água">
+            <option value="Laranjinha kinkan">
+            <option value="Lichia">
+            <option value="Lima da pérsia">
+            <option value="Limão galego">
+            <option value="Limão Taiti">
+            <option value="Maçã argentina">
+            <option value="Maçã Fuji">
+            <option value="Maçã gala">
+            <option value="Maçã verde">
+            <option value="Mamão formosa">
+            <option value="Mamão Havaí">
+            <option value="Manga espada">
+            <option value="Manga Haden">
+            <option value="Manga Palmer">
+            <option value="Manga Tommy">
+            <option value="Manga Ubá">
+            <option value="Mangostim">
+            <option value="Maracujá doce">
+            <option value="Maracujá para suco">
+            <option value="Melancia">
+            <option value="Melancia sem semente">
+            <option value="Melão">
+            <option value="Melão Net">
+            <option value="Melão Orange">
+            <option value="Melão pele de sapo">
+            <option value="Melão redinha">
+            <option value="Mexerica carioca">
+            <option value="Mexerica Murcote">
+            <option value="Mexerica Ponkan">
+            <option value="Mirtilo">
+            <option value="Morango">
+            <option value="Nectarina">
+            <option value="Nêspera ou ameixa amarela">
+            <option value="Noni">
+            <option value="Pera asiática">
+            <option value="Peraportuguesa">
+            <option value="Pêssego">
+            <option value="Physalis">
+            <option value="Pinha">
+            <option value="Pitaia">
+            <option value="Romã">
+            <option value="Tamarilo">
+            <option value="Tamarino">
+            <option value="Uva red globe">
+            <option value="Uva rosada">
+            <option value="Uva Rubi">
+            <option value="Uva sem semente" </datalist> </form> 
 
 </body>
 
